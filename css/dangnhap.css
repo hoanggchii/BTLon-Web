@@ -1,0 +1,79 @@
+body {
+    background-color: #f0f0f0;
+}
+
+form {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
+
+.logo img {
+    width: 160px;
+    height: 80px;
+}
+
+.dangnhap {
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.ftitle {
+    font-size: 16px;
+}
+
+.dn {
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.dn:hover {
+    transform: scale(0.96);
+}
+
+#f1 {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#f1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.finfo {
+    width: 100%;
+    background-color: rgb(228, 231, 231);
+}
+
+.finfo p {
+    font-size: 12px;
+    line-height: 1.8;
+    padding-left: 330px;
+}
+
+.social-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.social-container a {
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    color: #333;
+}
